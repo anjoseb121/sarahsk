@@ -1,5 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
@@ -52,6 +53,7 @@ const TemplateWrapper = ({ children }) => {
           {children}
         </div>
         <Sidebar />
+        <Navbar />
       </section>
     </div>
   )
