@@ -49,9 +49,7 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <section class="main-content columns is-fullheight">
-        <div class="column is-10">
-          {children}
-        </div>
+        <div class="column is-10">{children}</div>
         <Sidebar />
         <Navbar />
       </section>

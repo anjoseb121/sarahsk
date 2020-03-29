@@ -3,7 +3,6 @@ import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
-
   render() {
     return (
       <nav
@@ -12,19 +11,11 @@ const Navbar = class extends React.Component {
         aria-label="main-navigation"
       >
         <div className="container">
-          <div
-            id="navMenu"
-          >
+          <div id="navMenu">
             <div className="navbar-start has-text-centered">
-              <a className="navbar-item">
-                About
-              </a>
-              <a className="navbar-item">
-                Home
-              </a>
-              <a className="navbar-item">
-                Contact
-              </a>
+              <a className="navbar-item">Home</a>
+              <a className="navbar-item">Acerca de mi</a>
+              <a className="navbar-item" href="#contact">Contacto</a>
             </div>
           </div>
         </div>
