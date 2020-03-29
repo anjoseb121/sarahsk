@@ -16,19 +16,18 @@ const Sidebar = class extends React.Component {
             <a>Home</a>
           </li>
           <li>
-            <a>About</a>
+            <a>Acerca de mi</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="#contact">Contacto</a>
           </li>
         </ul>
         <div>
-        <p>Sarah Stand Kandlar</p>
-        <p>Colombia</p>
-        <p>+57 305 331 2091</p>
-        <p>contact@sarahsk.co</p>
+          <p>Sarah Stand Kandlar</p>
+          <p>Colombia</p>
+          <p>+57 305 331 2091</p>
+          <p>contact@sarahsk.co</p>
         </div>
-        
       </aside>
     )
   }

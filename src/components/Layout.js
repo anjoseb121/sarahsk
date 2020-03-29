@@ -1,5 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
@@ -48,10 +49,9 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <section class="main-content columns is-fullheight">
-        <div class="column is-10">
-          {children}
-        </div>
+        <div class="column is-10">{children}</div>
         <Sidebar />
+        <Navbar />
       </section>
     </div>
   )
