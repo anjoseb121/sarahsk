@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Sarah Stand Kandlar',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      `Psicóloga interesada en el área organizacional, con conocimientos en selección de personal 
+      de cargos administrativos, comerciales y conocimiento en el área de bienestar organizacional,
+      seguridad y salud en el trabajo y nómina.`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
