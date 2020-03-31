@@ -3,7 +3,7 @@ templateKey: index-page
 title: Acerca de mi
 image: /img/laura-andreuccetti-z74a7melbgy-unsplash.jpg
 heading: Sarah Stand Kandlar
-subheading: Psicologa Organizacional
+subheading: Psicóloga Organizacional
 mainpitch:
   title: Why Kaldi
   description: >

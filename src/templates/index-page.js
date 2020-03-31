@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 import Layout from '../components/Layout'
 
@@ -14,6 +15,9 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
+    <Helmet>
+        <title>Sarah Stand Kandlar | Home</title>
+    </Helmet>
     <section className="hero is-fullheight">
       <div 
         className="full-width-image-container"
@@ -21,7 +25,6 @@ export const IndexPageTemplate = ({
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
           })`,
-          backgroundPosition: `top left`,
           backgroundAttachment: `fixed`,
         }}
       >
@@ -56,6 +59,8 @@ export const IndexPageTemplate = ({
             <h1 className="title has-text-center has-text-centered">Contacto</h1>            
 
             <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact" />
+              
               <div class="field">
                 <label class="label">Email</label>
                 <div class="control has-icons-left">
