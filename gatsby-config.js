@@ -1,10 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: 'Sarah Stand Kandlar',
-    description:
-      `Psicóloga interesada en el área organizacional, con conocimientos en selección de personal 
-      de cargos administrativos, comerciales y conocimiento en el área de bienestar organizacional,
-      seguridad y salud en el trabajo y nómina.`,
+    description: 'Psicóloga interesada en el área organizacional, con conocimientos en selección de personal de cargos administrativos, comerciales y conocimiento en el área de bienestar organizacional, seguridad y salud en el trabajo y nómina.',
+    keywords: 'Psicologia,Organizacional,Recursos,Humanos,HR,RH,Talento,Humano',
+    author: 'Antonio Barandica'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
