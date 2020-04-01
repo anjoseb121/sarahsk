@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
 
 import Layout from '../components/Layout'
+import ContactForm from '../components/ContactForm'
 
 export const IndexPageTemplate = ({
   image,
@@ -57,31 +58,7 @@ export const IndexPageTemplate = ({
         <div className="columns">
           <div className="column is-8 is-offset-2">
             <h1 className="title has-text-center has-text-centered">Contacto</h1>            
-
-            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-              <input type="hidden" name="form-name" value="contact" />
-              
-              <div class="field">
-                <label class="label">Email</label>
-                <div class="control has-icons-left">
-                  <input class="input" type="email" placeholder="Email"/>
-                  <span class="icon is-small is-left">
-                    <i class="fas fa-envelope"></i>
-                  </span>
-                </div>
-              </div>
-
-              <div class="field">
-                <label class="label">Mensaje</label>
-                <div class="control">
-                  <textarea class="textarea" placeholder="Textarea"></textarea>
-                </div>
-              </div>
-
-              <div class="control">
-                <button class="button is-link">Enviar</button>
-              </div>
-            </form>    
+            <ContactForm />  
           </div>
         </div>
       </div>
