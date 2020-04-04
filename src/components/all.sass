@@ -1,14 +1,32 @@
 @import "~bulma/sass/utilities/initial-variables"
 
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+$family-sans-serif: "Raleway", sans-serif;
+
+// spacing
+$sizes: (0,10,15,20,25,30,50);
+$positions: ('top','left','bottom','right');
+
+@each $size in $sizes
+  @each $position in $positions
+    .m#{str-slice($position, 0, 1)}-#{$size}
+      margin-#{$position}: $size + px
+    .p#{str-slice($position, 0, 1)}-#{$size}
+      padding-#{$position}: $size + px
+
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
 $kaldi-red-invert: #fff
+$sk-purple: #4A148C
+$sk-purple-invert: #fff
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
-$body-color: #333
+$primary: $sk-purple
+$primary-invert: $sk-purple-invert
+$link: $sk-purple
 $black: #2b2523
+$body-color: #333
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -132,6 +150,9 @@ aside
     flex-direction: column;
     -webkit-box-pack: justify;
     justify-content: space-between;
+
+html
+  scroll-behavior: smooth
 
 @import "~bulma"
 

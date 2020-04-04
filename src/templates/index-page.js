@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 
 import Layout from '../components/Layout'
 import ContactForm from '../components/ContactForm'
+import ContactInfo from '../components/ContactInfo'
 
 export const IndexPageTemplate = ({
   image,
@@ -17,10 +18,10 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <Helmet>
-        <title>Sarah Stand Kandlar | Home</title>
+      <title>Sarah Stand Kandlar | Home</title>
     </Helmet>
-    <section className="hero is-fullheight">
-      <div 
+    <section className="hero is-fullheight" id="home">
+      <div
         className="full-width-image-container"
         style={{
           backgroundImage: `url(${
@@ -31,25 +32,21 @@ export const IndexPageTemplate = ({
       >
         <div className="full-width-image">
           <div className="content has-text-centered">
-            <h1 className="title has-text-white">
-              { heading }
-            </h1>
-            <h4 className="subtitle has-text-white">
-              { subheading }
-            </h4>
+            <h1 className="title has-text-white">{heading}</h1>
+            <h4 className="subtitle has-text-white">{subheading}</h4>
           </div>
         </div>
       </div>
     </section>
 
-    <section className="hero section">
+    <section className="hero section" id="about">
       <div className="container">
         <div className="columns">
           <div className="column is-8 is-offset-2">
-            <h1 className="title has-text-center has-text-centered">{ title }</h1>            
-            <p>{ description }</p>
-            </div>
+            <h1 className="title has-text-center has-text-centered">{title}</h1>
+            <p>{description}</p>
           </div>
+        </div>
       </div>
     </section>
 
@@ -57,12 +54,17 @@ export const IndexPageTemplate = ({
       <div clasName="container">
         <div className="columns">
           <div className="column is-8 is-offset-2">
-            <h1 className="title has-text-center has-text-centered">Contacto</h1>            
-            <ContactForm />  
+            <h1 className="title has-text-center has-text-centered">
+              Contacto
+            </h1>
+            <ContactForm />
+            <div className="is-hidden-desktop mt-15">
+              <ContactInfo />
+            </div>
           </div>
         </div>
       </div>
-    </section>  
+    </section>
   </div>
 )
 
