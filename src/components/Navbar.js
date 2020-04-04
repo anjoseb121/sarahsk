@@ -13,9 +13,15 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div id="navMenu">
             <div className="navbar-start has-text-centered">
-              <a className="navbar-item">Home</a>
-              <a className="navbar-item">Acerca de mi</a>
-              <a className="navbar-item" href="#contact">Contacto</a>
+              <a className="navbar-item" href="#home">
+                Home
+              </a>
+              <a className="navbar-item" href="#about">
+                Acerca de mi
+              </a>
+              <a className="navbar-item" href="#contact">
+                Contacto
+              </a>
             </div>
           </div>
         </div>

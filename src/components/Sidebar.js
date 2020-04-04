@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import ContactInfo from '../components/ContactInfo'
 
 const Sidebar = class extends React.Component {
   constructor(props) {
@@ -13,21 +13,16 @@ const Sidebar = class extends React.Component {
         <p class="menu-label has-text-black">Sarah Stand Kandlar</p>
         <ul class="menu-list">
           <li>
-            <a>Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a>Acerca de mi</a>
+            <a href="#about">Acerca de mi</a>
           </li>
           <li>
             <a href="#contact">Contacto</a>
           </li>
         </ul>
-        <div>
-          <p>Sarah Stand Kandlar</p>
-          <p>Colombia</p>
-          <p>+57 305 331 2091</p>
-          <p>info@sarahstand.me</p>
-        </div>
+        <ContactInfo />
       </aside>
     )
   }
