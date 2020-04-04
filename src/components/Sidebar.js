@@ -26,7 +26,7 @@ const Sidebar = class extends React.Component {
           <p>Sarah Stand Kandlar</p>
           <p>Colombia</p>
           <p>+57 305 331 2091</p>
-          <p>contacto@sarahstand.me</p>
+          <p>info@sarahstand.me</p>
         </div>
       </aside>
     )
