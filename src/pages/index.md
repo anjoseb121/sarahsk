@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Acerca de mi
-image: /img/laura-andreuccetti-z74a7melbgy-unsplash.jpg
+image: /img/img_20191109_082809011-convertimage.jpg
 heading: Sarah Stand Kandlar
 subheading: Psicóloga Organizacional
 mainpitch:
@@ -11,16 +11,15 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
-description: >-
-  Psicóloga interesada en el área organizacional, con conocimientos en selección
-  de personal de cargos administrativos, comerciales y conocimiento en el área
-  de bienestar organizacional, seguridad y salud en el trabajo y nómina.
-  Experiencia en aplicación de pruebas cognitivas, proyectivas y de
+description: "Psicóloga interesada en el área organizacional, con conocimientos
+  en selección de personal de cargos administrativos, comerciales y conocimiento
+  en el área de bienestar organizacional, seguridad y salud en el trabajo y
+  nómina. Experiencia en aplicación de pruebas cognitivas, proyectivas y de
   personalidad, en atención al cliente, logística de eventos y manejo de
   personal. Dominio en herramientas computacionales como Microsoft office Excel,
   Microsoft office Word, Microsoft office Powerpoint. Con capacidad de
-  liderazgo, adaptabilidad, resolución de problemas, creatividad y
-  proactividad. 
+  liderazgo, adaptabilidad, resolución de problemas, creatividad y proactividad.
+  "
 intro:
   blurbs:
     - image: /img/coffee.png
