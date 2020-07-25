@@ -13,13 +13,16 @@ const Sidebar = class extends React.Component {
         <p class="menu-label has-text-black">Sarah Stand Kandlar</p>
         <ul class="menu-list">
           <li>
-            <a href="#home">Home</a>
+            <a href="/#home">Home</a>
           </li>
           <li>
-            <a href="#about">Acerca de mi</a>
+            <a href="/#about">Acerca de mi</a>
           </li>
           <li>
-            <a href="#contact">Contacto</a>
+            <a href="/blog">Blog</a>
+          </li>
+          <li>
+            <a href="/#contact">Contacto</a>
           </li>
         </ul>
         <ContactInfo />
